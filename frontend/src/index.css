@@ -1,0 +1,74 @@
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
+
+.editor-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.editor-window {
+    flex: 1;
+    margin: 0 2px;
+    /* Space between editor columns */
+}
+
+.output-container {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    height: 290px;
+    overflow: auto;
+    width: 96.3%;
+    margin: auto;
+}
+
+.full-page {
+    height: 100vh;
+    /* Full viewport height */
+    background-color: black;
+    /* Black background */
+}
+
+.height{
+    height: 80px;
+}
+
+.full {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    /* Center text in the container */
+    padding: 20px;
+    /* Add some padding */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Optional: Add a slight background for the form */
+    border-radius: 10px;
+    /* Optional: Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Optional: Add shadow for depth */
+}
